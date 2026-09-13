@@ -1,0 +1,27 @@
+
+ACADEMIC PERFORMANCE REPORT
+===========================
+Class size: 5
+Class average: 72.72%
+Pass rate (>= 50%): 100.0%
+
+Subject trends:
+- mathematics: 70.40%
+- english: 71.20%
+- social_science: 72.20%
+- science: 73.20%
+- computer_science: 76.60%
+
+Top performers:
+- Noor Fatima: 93.40%
+- Aisha Khan: 87.80%
+- Riya Sharma: 73.00%
+
+Students needing attention:
+- Zoya Ali — High risk (50.00%); weak areas: mathematics, science, english, social_science, computer_science
+- Hiba Ahmed — Medium risk (59.40%); weak areas: mathematics, english
+
+Recommendations:
+- Prioritize support in mathematics, english.
+- Use weekly check-ins for high- and medium-risk students.
+- Recognize top performers and offer enrichment tasks.

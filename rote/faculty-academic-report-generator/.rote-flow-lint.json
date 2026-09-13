@@ -1,0 +1,9 @@
+{
+  "flow_name": "faculty-academic-report-generator",
+  "flow_path": "/home/syeda_begum/.rote/flows/faculty-academic-report-generator/main.ts",
+  "static_checks_passed": true,
+  "runtime_checks_passed": true,
+  "violations": [],
+  "linted_at": "2026-09-13T16:05:27.508807194Z",
+  "rote_version": "0.82.0"
+}

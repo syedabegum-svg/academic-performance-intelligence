@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "suspicions": [
+    {
+      "literal": "cd \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence\" && /tmp/academic-performance-intelligence-venv/bin/python main.py faculty-report --csv \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence/test_student_marks.csv\"",
+      "path": "/invocation/args[1]",
+      "response_id": 1,
+      "matching_var": "csv_path",
+      "matching_value": "/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence/test_student_marks.csv",
+      "suggestion": "cd \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence\" && /tmp/academic-performance-intelligence-venv/bin/python main.py faculty-report --csv \"$csv_path\""
+    },
+    {
+      "literal": "cd \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence\" && /tmp/academic-performance-intelligence-venv/bin/python main.py report --csv \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence/test_student_marks.csv\"",
+      "path": "/invocation/args[1]",
+      "response_id": 2,
+      "matching_var": "csv_path",
+      "matching_value": "/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence/test_student_marks.csv",
+      "suggestion": "cd \"/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence\" && /tmp/academic-performance-intelligence-venv/bin/python main.py report --csv \"$csv_path\""
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "process.exec",
+  "invocation": {
+    "kind": "direct_argv",
+    "program": "bash",
+    "args": [
+      "-c",
+      "cd \"$1\" && \"$2\" main.py report --csv \"$3\"",
+      "bash",
+      "/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence",
+      "/tmp/academic-performance-intelligence-venv/bin/python",
+      "/mnt/c/Users/SYEDA BEGUM/academic-performance-intelligence/test_student_marks.csv"
+    ],
+    "cwd": "/home/syeda_begum/.rote/workspaces/dag-faculty-academic-report-generator-0a909c00",
+    "platform": {
+      "os": "linux",
+      "arch": "x86_64"
+    }
+  },
+  "env": {
+    "mode": "ambient",
+    "inherited_allowlist": [
+      "HOME",
+      "LANG",
+      "PATH",
+      "PWD",
+      "SHELL",
+      "TERM",
+      "USER"
+    ],
+    "redacted": []
+  },
+  "stdin": {
+    "kind": "none"
+  },
+  "status": {
+    "spawned": true,
+    "exit": {
+      "kind": "code",
+      "code": 0
+    },
+    "timed_out": false,
+    "duration_ms": 1411,
+    "timeout_ms": 30000
+  },
+  "timeout": {
+    "kind": "default",
+    "timeout_ms": 30000,
+    "enforced": true
+  },
+  "stdout": {
+    "bytes": 719,
+    "text": "\nACADEMIC PERFORMANCE REPORT\n===========================\nClass size: 5\nClass average: 72.72%\nPass rate (>= 50%): 100.0%\n\nSubject trends:\n- mathematics: 70.40%\n- english: 71.20%\n- social_science: 72.20%\n- science: 73.20%\n- computer_science: 76.60%\n\nTop performers:\n- Noor Fatima: 93.40%\n- Aisha Khan: 87.80%\n- Riya Sharma: 73.00%\n\nStudents needing attention:\n- Zoya Ali \u2014 High risk (50.00%); weak areas: mathematics, science, english, social_science, computer_science\n- Hiba Ahmed \u2014 Medium risk (59.40%); weak areas: mathematics, english\n\nRecommendations:\n- Prioritize support in mathematics, english.\n- Use weekly check-ins for high- and medium-risk students.\n- Recognize top performers and offer enrichment tasks.\n",
+    "preview_bytes": 719,
+    "truncated": false,
+    "encoding": "utf8",
+    "sha256": "03a68186ac0ce1e0eeb02e9c8ccc885ffc837aaab20a4de1ebdc659da1125a8a",
+    "artifact": {
+      "kind": "stream",
+      "label": "stdout",
+      "path": ".rote/artifacts/processes/@1/stdout.txt",
+      "media_type": "text/plain; charset=utf-8",
+      "bytes": 719,
+      "sha256": "03a68186ac0ce1e0eeb02e9c8ccc885ffc837aaab20a4de1ebdc659da1125a8a"
+    },
+    "file": null
+  },
+  "stderr": {
+    "bytes": 0,
+    "text": "",
+    "preview_bytes": 0,
+    "truncated": false,
+    "encoding": "utf8",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifact": {
+      "kind": "stream",
+      "label": "stderr",
+      "path": ".rote/artifacts/processes/@1/stderr.txt",
+      "media_type": "text/plain; charset=utf-8",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "file": null
+  },
+  "files": [],
+  "policy": {
+    "state": "evaluated",
+    "decision": "warned",
+    "sandbox": {
+      "mode": "not_enforced",
+      "reason": "no active workspace sandbox marker was present"
+    },
+    "risk_tags": [
+      "shell_parsing"
+    ],
+    "confirmations": [],
+    "redactions": [],
+    "warnings": [
+      "command invokes a shell parser"
+    ]
+  }
+}

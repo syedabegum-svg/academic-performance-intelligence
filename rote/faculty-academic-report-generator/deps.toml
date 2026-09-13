@@ -1,0 +1,6 @@
+schema_version = 1
+
+[[tools]]
+id = "bash"
+command = "bash"
+required = true
